@@ -1,0 +1,14 @@
+- Estrarre l'archivio ExamChecker020223.zip
+- Aprire il progetto su Visual Studio
+- Incollare/svolgere la propria soluzione nel file paroliere.c
+- Recarsi nel main e commentare/decommentare a piacimento le define da riga 6 a riga 9 (i test sono tra loro indipendenti)
+- Avviare il main per testare la propria soluzione.
+
+- Il file paroliere_sol.c contiene le soluzioni.
+Esso utilizza delle funzioni che sono state definite nel file utilities.h e implementate nel file utilities.c. 
+Ciò è stato fatto semplicemente perchè potessero essere riciclate anche nel main di testing, 
+in sede d'esame sarebbero dovute essere nel file sequence.c, con keyword "static" 
+
+Consiglio: date un'occhiata anche al codice del main, per capire come si possono testare le funzioni. 
+In sede d'esame potete fare tutte le prove che volete e aggiungere del codice nel main per testare parti specifiche della vostra implementazione.
+Insieme al debugger, i test possono essere uno strumento prezioso. (A noi andrà consegnato solo il .c della libreria, paroliere.c in questo caso)
