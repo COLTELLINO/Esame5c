@@ -1,15 +1,14 @@
-#include "paroliere_sol.h"
+#include "paroliere.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-#include "paroliere_sol.h"
 #include <string.h>
 struct board board_gen_sol() {
 	int i, j, letter_index;
 	struct board b;
 	b.height = NROWS;
 	b.width = NCOLS;
-	//il seed è inizializzato nel main con  l'istruzione srand((unsigned int)time(NULL))
+	//il seed Ã¨ inizializzato nel main con  l'istruzione srand((unsigned int)time(NULL))
 	for (i = 0; i < b.height; i++) {
 		for (j = 0; j < b.width; j++) {
 			letter_index = rand() % N_LETTERS;
