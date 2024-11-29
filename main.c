@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 #include "paroliere.h"
-#include "paroliere_sol.h"
 #include <string.h>
 #define FILENAME "dizionario.txt"
 #define RED     "\x1b[31m"
